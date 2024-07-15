@@ -3,9 +3,12 @@ package main
 import "fmt"
 
 /*
-In Go, constants are immutable values that are known at compile time and do not change during the execution of the program.
-They are declared using the const keyword.
-Constants can be of various types, including numeric, string, and boolean.
+-> In Go, constants are immutable values that are known at compile time and do not change during the execution of the program.
+-> They are declared using the const keyword.
+-> Constants can be of various types, including numeric, string, and boolean.
+-> Constants cannot be declared using the := syntax.
+-> Constants must be initialized at the time of declaration.
+-> Constants cannot be modified after declaration.
 */
 
 func main() {
