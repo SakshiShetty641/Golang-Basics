@@ -54,4 +54,27 @@ func main() {
 	var done bool                          // initialized with false
 	fmt.Println(value, price, name2, done) // -> 0 0.0 ""  false
 
+	//%d: Decimal integer
+	m := 123
+	fmt.Printf("Integer: %d\n", m)
+
+	//%f: Floating point number
+	f := 3.14159
+	fmt.Printf("Float: %f\n", f)
+
+	//%s: String, %q -> double-quoted string
+	s := "Hello, Go!"
+	fmt.Printf("String: %s\n", s)
+	fmt.Printf("String: %q\n", s)
+
+	//%T: Type of the value
+	fmt.Printf("Type: %T\n", s)
+
+	//%v: Default format -> Formats the value in a default format suitable for the type.
+	fmt.Printf("Default format: %v\n", s)
+
+	//%t: Boolean -> Used to format boolean values.
+	r := true
+	fmt.Printf("Boolean: %t\n", r)
+
 }
