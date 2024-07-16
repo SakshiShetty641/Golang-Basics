@@ -22,4 +22,8 @@ It increments by 1 after each line in the block.
 
 ->fmt.Sprintf is a function from the fmt package that formats strings similarly to fmt.Printf, but instead of printing the formatted string to standard output, it returns the formatted string itself as a string value. 
 
+-> In Go, an alias is a way to create an alternative name for an existing type. 
+
+-> In Go, command-line arguments are accessible via the os package, specifically through the os.Args variable. This variable is a slice of strings that contains all the arguments passed to the program from the command line.
+
 
